@@ -1,17 +1,15 @@
-<!--Unit 2 Project
+<!--
+Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ x ] Two Element Selectors
+[ x ] Two ID Selectors
+[ x ] Two Class Selectors
+[ x ] Three Images
 
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
-[ no ] Feature 2 - Include a Static Background Image
-[ no ] Feature 3 - Include An Animated Background Color Change
-[ no ] Feature 4 - Embed YouTube Video 
-[ no ] Feature 5 - Include Border CSS Property 
--->
+Selected Feature:
+[ x ] Feature 1 - Include Border Radius CSS Property
+
+This project is a travel website for "München, Germany".
     
 <!DOCTYPE HTML>
 <html>
@@ -19,11 +17,67 @@ Select ONE Additional Feature to Add
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
         <style>
-            
+            /* Element selectors */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #e0f7fa;
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                color: #00796b;
+                text-align: center;
+            }
+
+            /* ID selectors */
+            #main-image {
+                width: 80%;
+                display: block;
+                margin: 20px auto;
+                border-radius: 20px; /* Feature 1 */
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+            #special-offer {
+                background: #fffde7;
+                border: 2px solid #ffd600;
+                border-radius: 15px; /* Feature 1 */
+                padding: 10px;
+                margin: 20px auto;
+                width: 60%;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            /* Class selectors */
+            .gallery-img {
+                width: 30%;
+                margin: 10px;
+                border-radius: 12px; /* Feature 1 */
+                border: 2px solid #80cbc4;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+            .highlight {
+                color: #d84315;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
-
-        
+        <h1>Welcome to London, England!</h1>
+        <img id="main-image" src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="London Skyline">
+        <div id="special-offer">Special Offer: London Explorer Pass – Save 15% on top attractions!</div>
+        <h2>Top Attractions</h2>
+        <ul>
+            <li class="highlight">Big Ben</li>
+            <li>Hyde Park</li>
+            <li class="highlight">Tower Bridge</li>
+        </ul>
+        <h2>Gallery</h2>
+        <img class="gallery-img" src="https://images.unsplash.com/photo-1465101178521-c1a4c8a0f8a6?auto=format&fit=crop&w=400&q=80" alt="Big Ben, London">
+        <img class="gallery-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Hyde Park, London">
+        <img class="gallery-img" src="https://images.unsplash.com/photo-1465156799763-2c087c332922?auto=format&fit=crop&w=400&q=80" alt="Tower Bridge, London">
+        <img class="gallery-img" src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=400&q=80" alt="London Eye, London">
+        <h2>Why Visit?</h2>
+        <p>London is a vibrant city full of history, culture, and excitement. Visit iconic landmarks like Big Ben and Tower Bridge, stroll through beautiful Hyde Park, and enjoy world-class museums, shopping, and dining. Discover the magic of London and create unforgettable memories!</p>
     </body>
 </html>
