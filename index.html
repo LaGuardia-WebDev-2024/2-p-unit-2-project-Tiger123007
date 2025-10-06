@@ -13,16 +13,108 @@ Zusatz-Feature: Border Radius CSS Property
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reise nach München & FC Bayern München</title>
+            <title>🏰 München & FC Bayern München ✨</title>
     <link rel="stylesheet" href="style.css">
+            <style>
+                body {
+                    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                    font-family: 'Segoe UI', Arial, sans-serif;
+                    color: #222;
+                }
+                header {
+                    text-align: center;
+                    padding: 2rem 0 1rem 0;
+                    background: #e53935;
+                    color: #fff;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                    border-bottom-left-radius: 40px;
+                    border-bottom-right-radius: 40px;
+                }
+                h1#intro {
+                    font-size: 2.5rem;
+                    margin-bottom: 0.5rem;
+                    letter-spacing: 2px;
+                }
+                .places {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 2rem;
+                    justify-content: center;
+                    margin: 2rem 0;
+                }
+                .place {
+                    background: #fff;
+                    border-radius: 24px;
+                    box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+                    padding: 1rem;
+                    width: 260px;
+                    text-align: center;
+                    transition: transform 0.2s;
+                    border: 2px solid #e53935;
+                }
+                .place:hover {
+                    transform: scale(1.05) rotate(-2deg);
+                    box-shadow: 0 12px 32px rgba(229,57,53,0.15);
+                }
+                .img-rounded {
+                    border-radius: 18px;
+                    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+                    width: 100%;
+                    margin-bottom: 0.5rem;
+                }
+                .emoji {
+                    font-size: 2.2rem;
+                    margin-bottom: 0.5rem;
+                }
+                footer {
+                    text-align: center;
+                    padding: 1.5rem 0 1rem 0;
+                    background: #e53935;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 40px;
+                    margin-top: 2rem;
+                    box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
+                }
+            </style>
 </head>
 <body>
         <h1 id="intro">Willkommen in München!</h1>
-        <p class="place">München ist die Hauptstadt Bayerns, berühmt für ihre Kultur, das Oktoberfest, die wunderschöne Architektur und den legendären Fußballverein FC Bayern München.</p>
-        <img src="https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/4/4/1/1/2181144-1-ger-DE/marienplatz-D-2687s-v1-foto-redline.jpg" alt="Marienplatz München" class="img-rounded">
-        <img src="https://www.oberbayern.de/wp-content/uploads/sites/3/2022/01/Neues-Rathaus-Marienplatz-Muenchen-%C2%A9-Muenchen-Tourismus-Vittorio-Sciosia-1-1000x1500.jpg" alt="Neues Rathaus München" class="img-rounded">
-        <img src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1601372223/cms/public/images/fcbayern-com/media/images/homepage/stadien/allianz-arena/arena_ima_111205.jpg" alt="Allianz Arena" class="img-rounded">
-        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c9/00/32/caption.jpg?w=900&amp;h=-1&amp;s=1" alt="Oktoberfest München" class="img-rounded">
+            <header>
+                <div class="emoji">🏰🍻⚽️</div>
+                <h1 id="intro">Willkommen in München!</h1>
+                <p style="font-size:1.2rem; margin:0.5rem 0 0 0;">Erlebe bayerische Kultur, Fußballfieber und das Oktoberfest!</p>
+            </header>
+            <div class="places">
+                <div class="place">
+                    <div class="emoji">📸</div>
+                    <img class="img-rounded" src="https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/4/4/1/1/2181144-1-ger-DE/marienplatz-D-2687s-v1-foto-redline.jpg" alt="Marienplatz München">
+                    <h2>Marienplatz</h2>
+                    <p>Das Herz von München mit dem berühmten Rathaus und vielen Einkaufsmöglichkeiten.</p>
+                </div>
+                <div class="place">
+                    <div class="emoji">🏛️</div>
+                    <img class="img-rounded" src="https://www.oberbayern.de/wp-content/uploads/sites/3/2022/01/Neues-Rathaus-Marienplatz-Muenchen-%C2%A9-Muenchen-Tourismus-Vittorio-Sciosia-1-1000x1500.jpg" alt="Neues Rathaus München">
+                    <h2>Neues Rathaus</h2>
+                    <p>Das Neue Rathaus am Marienplatz ist ein Wahrzeichen der Stadt und beeindruckt mit seiner neugotischen Architektur.</p>
+                </div>
+                <div class="place">
+                    <div class="emoji">🏟️</div>
+                    <img class="img-rounded" src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1601372223/cms/public/images/fcbayern-com/media/images/homepage/stadien/allianz-arena/arena_ima_111205.jpg" alt="Allianz Arena">
+                    <h2>Allianz Arena</h2>
+                    <p>Das Heimstadion des FC Bayern München, bekannt für seine beeindruckende Architektur.</p>
+                </div>
+                <div class="place">
+                    <div class="emoji">🎡</div>
+                    <img class="img-rounded" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c9/00/32/caption.jpg?w=900&amp;h=-1&amp;s=1" alt="Oktoberfest München">
+                    <h2>Oktoberfest</h2>
+                    <p>Das größte Volksfest der Welt mit Bierzelten, Fahrgeschäften und bayerischer Tradition.</p>
+                </div>
+            </div>
+            <footer>
+                <span>✨ Viel Spaß in München! Prost! 🍻 | 2025, LaGuardia WebDev ✨</span>
+            </footer>
 
         <h2 id="highlights">Highlights von München & FC Bayern</h2>
         <ul>
