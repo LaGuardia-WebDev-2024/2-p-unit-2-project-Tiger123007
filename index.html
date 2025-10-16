@@ -1,97 +1,275 @@
 
+<!DOCTYPE html> 
+<html lang="de"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>🏰 München & FC Bayern München ✨</title> 
+<!-- Added Germania One font --> 
+<link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css"> 
+<style> 
+body { 
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    color: #222; 
+} 
 
-<!DOCTYPE html> <html lang="de"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>🏰 München & FC Bayern München ✨</title> <!-- Added Germania One font --> <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet"> <link rel="stylesheet" href="style.css"> <style> body { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); font-family: 'Segoe UI', Arial, sans-serif; color: #222; } header { text-align: center; padding: 2rem 0 1rem 0; background: #e53935; color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; } /* Apply Germania font to titles */ h1, h2, footer { font-family: 'Germania One', cursive; letter-spacing: 1px; } h1#intro { font-size: 2.5rem; margin-bottom: 0.5rem; } .places { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin: 2rem 0; } .place { background: #fff; border-radius: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.10); padding: 1rem; width: 260px; text-align: center; transition: transform 0.2s; border: 2px solid #e53935; } .place:hover { transform: scale(1.05) rotate(-2deg); box-shadow: 0 12px 32px rgba(229,57,53,0.15); } .img-rounded { border-radius: 18px; box-shadow: 0 2px 12px rgba(0,0,0,0.12); width: 100%; margin-bottom: 0.5rem; } .emoji { font-size: 2.2rem; margin-bottom: 0.5rem; } footer { text-align: center; padding: 1.5rem 0 1rem 0; background: #e53935; color: #fff; font-size: 1.2rem; border-top-left-radius: 40px; border-top-right-radius: 40px; margin-top: 2rem; box-shadow: 0 -4px 12px rgba(0,0,0,0.08); } </style> </head> <body> <header> <div style="display:flex; flex-direction:column; align-items:center; gap:0.1em;"> <div class="emoji" style="margin-bottom:0;">🏰🍻⚽️</div> <h1 id="intro" style="display:flex; align-items:center; justify-content:center; gap:16px; margin-top:0.1em;"> <img src="bavarianflag.jpg" alt="Bayerische Flagge" style="height:2.5em; vertical-align:middle; border-radius:8px; box-shadow:0 2px 8px #b3d9ff80; margin-right:8px;"> Willkommen in München! </h1> </div> <p style="font-size:1.2rem; margin:0.5rem 0 0 0;">Erlebe bayerische Kultur, Fußballfieber und das Oktoberfest!</p> </header> <div class="places"> <div class="place flair-food"> <div class="emoji">📸</div> <img class="img-rounded flair-img" src="https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/4/4/1/1/2181144-1-ger-DE/marienplatz-D-2687s-v1-foto-redline.jpg" alt="Marienplatz München"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Marienplatz</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Das Herz von München mit dem berühmten Rathaus und vielen Einkaufsmöglichkeiten. </p> </div> <div class="place flair-food"> <div class="emoji">🏛️</div> <img class="img-rounded flair-img" src="https://www.oberbayern.de/wp-content/uploads/sites/3/2022/01/Neues-Rathaus-Marienplatz-Muenchen-%C2%A9-Muenchen-Tourismus-Vittorio-Sciosia-1-1000x1500.jpg" alt="Neues Rathaus München"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Neues Rathaus</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Das Neue Rathaus am Marienplatz ist ein Wahrzeichen der Stadt und beeindruckt mit seiner neugotischen Architektur. </p> </div> <div class="place flair-food"> <div class="emoji">🏟️</div> <img class="img-rounded flair-img" src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1601372223/cms/public/images/fcbayern-com/media/images/homepage/stadien/allianz-arena/arena_ima_111205.jpg" alt="Allianz Arena"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Allianz Arena</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Das Heimstadion des FC Bayern München, bekannt für seine beeindruckende Architektur. </p> </div> <div class="place flair-food"> <div class="emoji">🎡</div> <img class="img-rounded flair-img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c9/00/32/caption.jpg?w=900&amp;h=-1&amp;s=1" alt="Oktoberfest München"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Oktoberfest</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Das größte Volksfest der Welt mit Bierzelten, Fahrgeschäften und bayerischer Tradition. </p> </div> <div class="place flair-food"> <div class="emoji">🥨🍺🌭🎉</div> <img class="img-rounded flair-img" src="download (2).webp" alt="Traditionelles bayerisches Essen: Wurst, Bier, Brezel"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Traditionelles bayerisches Essen</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Willkommen zum Fest der Sinne! Genieße knusprige Brezeln, würzige Würste und ein kühles Bier – alles serviert mit bayerischer Gemütlichkeit und einer Prise Lebensfreude! <span style="font-size:1.3em;">🍻🥳🍽️</span> </p> </div> <div class="place flair-food"> <div class="emoji">🏆🎉⚽️</div> <img class="img-rounded flair-img" src="53605.jpg" alt="FC Bayern München feiert einen Sieg"> <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">FC Bayern München feiert!</h2> <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> Die Spieler des FC Bayern München jubeln nach einem großen Sieg – pure Freude, Teamgeist und Leidenschaft! <span style="font-size:1.3em;">🥇🥳❤️</span> </p> </div> </div> <footer> ✨ Viel Spaß in München! Prost! 🍻 | 2025, LaGuardia WebDev ✨ </footer> <section style="max-width:700px; margin:2.5em auto 2em auto; background:#f7fbffcc; border-radius:18px; box-shadow:0 2px 16px #b3d9ff40; padding:2em 2.2em;"> <h2 id="highlights" style="text-align:center; margin-top:0; color:#0066b2;">Highlights von München &amp; FC Bayern</h2> <ul style="list-style:square inside; padding-left:0; margin:1.5em 0 2em 0; color:#003366; font-size:1.13em;"> <li><strong>Allianz Arena</strong> – Heimstadion des FC Bayern München</li> <li><strong>Marienplatz &amp; Münchner Altstadt</strong></li> <li><strong>Englischer Garten</strong> – eine der größten Parkanlagen der Welt</li> <li><strong>FC Bayern Spiel</strong> – mit tausenden begeisterten Fans</li> <li><strong>Oktoberfest</strong> – das größte Volksfest der Welt</li> </ul> <p style="background:#fff; border-radius:10px; padding:1em 1.2em; margin-bottom:1.2em; box-shadow:0 1px 6px #e6f2ff80; color:#222;"> München bietet eine einzigartige Mischung aus Tradition und Moderne. Genieße bayerische Spezialitäten wie Brezn und Weißwurst, besuche Museen und Galerien oder entspanne im Englischen Garten. Die Stadt ist bekannt für ihre Lebensfreude und Gastfreundschaft. </p> <p style="background:#fff; border-radius:10px; padding:1em 1.2em; box-shadow:0 1px 6px #e6f2ff80; color:#222;"> Der FC Bayern München ist einer der erfolgreichsten Fußballvereine Europas. Erlebe die Atmosphäre in der Allianz Arena, besuche das Vereinsmuseum und tauche ein in die Geschichte des Rekordmeisters. Ein Spiel des FC Bayern ist ein unvergessliches Erlebnis für jeden Fußballfan! </p> </section> </body> </html>
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏰 München & FC Bayern München ✨</title>
+header { 
+    text-align: center; 
+    padding: 2rem 0 1rem 0; 
+    background: #e53935; 
+    color: #fff; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px; 
+} 
 
-    <!-- Germania One font -->
-    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+/* Apply Germania font to titles */ 
+h1, h2, footer { 
+    font-family: 'Germania One', cursive; 
+    letter-spacing: 1px; 
+} 
 
-    <style>
-        body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            font-family: 'Segoe UI', Arial, sans-serif;
-            color: #222;
-        }
+h1#intro { 
+    font-size: 2.5rem; 
+    margin-bottom: 0.5rem; 
+} 
 
-        /* Header and footer with Bavarian diamond pattern */
-        header, footer {
-            text-align: center;
-            background:
-                url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAiPjxwYXRoIGQ9Ik0wLDYwbDYwLTYwTDExMCw2MEgweiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik02MCw2MGw2MC02MEwxMjAsNjBIMFYwTDYwLDYweiIgZmlsbD0iIzAwNjZiMiIvPjwvc3ZnPg==") repeat;
-            background-size: 120px 60px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            color: #000;
-        }
+.places { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    justify-content: center; 
+    margin: 2rem 0; 
+} 
 
-        header {
-            padding: 2rem 0 1rem 0;
-            border-bottom-left-radius: 40px;
-            border-bottom-right-radius: 40px;
-        }
+.place { 
+    background: #fff; 
+    border-radius: 24px; 
+    box-shadow: 0 6px 24px rgba(0,0,0,0.10); 
+    padding: 1rem; 
+    width: 260px; 
+    text-align: center; 
+    transition: transform 0.2s; 
+    border: 2px solid #e53935; 
+} 
 
-        footer {
-            padding: 1.5rem 0 1rem 0;
-            border-top-left-radius: 40px;
-            border-top-right-radius: 40px;
-            margin-top: 2rem;
-            box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
-            font-size: 1.2rem;
-        }
+.place:hover { 
+    transform: scale(1.05) rotate(-2deg); 
+    box-shadow: 0 12px 32px rgba(229,57,53,0.15); 
+} 
 
-        /* Apply Germania font to titles */
-        h1, h2, footer {
-            font-family: 'Germania One', cursive;
-            letter-spacing: 1px;
-        }
+.img-rounded { 
+    border-radius: 18px; 
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12); 
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+} 
 
-        h1#intro {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 16px;
-        }
+.emoji { 
+    font-size: 2.2rem; 
+    margin-bottom: 0.5rem; 
+} 
 
-        .places {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            margin: 2rem 0;
-        }
+footer { 
+    text-align: center; 
+    padding: 1.5rem 0 1rem 0; 
+    background: #e53935; 
+    color: #fff; 
+    font-size: 1.2rem; 
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px; 
+    margin-top: 2rem; 
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.08); 
+} 
+</style> 
+</head> 
 
-        .place {
-            background: #fff;
-            border-radius: 24px;
-            box-shadow: 0 6px 24px rgba(0,0,0,0.10);
-            padding: 1rem;
-            width: 260px;
-            text-align: center;
-            transition: transform 0.2s;
-            border: 2px solid #0066b2;
-        }
+<body> 
+<header> 
+    <div style="display:flex; flex-direction:column; align-items:center; gap:0.1em;"> 
+        <div class="emoji" style="margin-bottom:0;">🏰🍻⚽️</div> 
+        <h1 id="intro" style="display:flex; align-items:center; justify-content:center; gap:16px; margin-top:0.1em;"> 
+            <img src="bavarianflag.jpg" alt="Bayerische Flagge" style="height:2.5em; vertical-align:middle; border-radius:8px; box-shadow:0 2px 8px #b3d9ff80; margin-right:8px;"> 
+            Willkommen in München! 
+        </h1> 
+    </div> 
+    <p style="font-size:1.2rem; margin:0.5rem 0 0 0;">Erlebe bayerische Kultur, Fußballfieber und das Oktoberfest!</p> 
+</header> 
 
-        .place:hover {
-            transform: scale(1.05) rotate(-2deg);
-            box-shadow: 0 12px 32px rgba(0,102,178,0.15);
-        }
+<div class="places"> 
+    <div class="place flair-food"> 
+        <div class="emoji">📸</div> 
+        <img class="img-rounded flair-img" src="https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/4/4/1/1/2181144-1-ger-DE/marienplatz-D-2687s-v1-foto-redline.jpg" alt="Marienplatz München"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Marienplatz</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Das Herz von München mit dem berühmten Rathaus und vielen Einkaufsmöglichkeiten. 
+        </p> 
+    </div> 
 
-        .img-rounded {
-            border-radius: 18px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-            width: 100%;
-            margin-bottom: 0.5rem;
-        }
+    <div class="place flair-food"> 
+        <div class="emoji">🏛️</div> 
+        <img class="img-rounded flair-img" src="https://www.oberbayern.de/wp-content/uploads/sites/3/2022/01/Neues-Rathaus-Marienplatz-Muenchen-%C2%A9-Muenchen-Tourismus-Vittorio-Sciosia-1-1000x1500.jpg" alt="Neues Rathaus München"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Neues Rathaus</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Das Neue Rathaus am Marienplatz ist ein Wahrzeichen der Stadt und beeindruckt mit seiner neugotischen Architektur. 
+        </p> 
+    </div> 
 
-        .emoji {
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-        }
-    </style>
+    <div class="place flair-food"> 
+        <div class="emoji">🏟️</div> 
+        <img class="img-rounded flair-img" src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1601372223/cms/public/images/fcbayern-com/media/images/homepage/stadien/allianz-arena/arena_ima_111205.jpg" alt="Allianz Arena"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Allianz Arena</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Das Heimstadion des FC Bayern München, bekannt für seine beeindruckende Architektur. 
+        </p> 
+    </div> 
+
+    <div class="place flair-food"> 
+        <div class="emoji">🎡</div> 
+        <img class="img-rounded flair-img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c9/00/32/caption.jpg?w=900&amp;h=-1&amp;s=1" alt="Oktoberfest München"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Oktoberfest</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Das größte Volksfest der Welt mit Bierzelten, Fahrgeschäften und bayerischer Tradition. 
+        </p> 
+    </div> 
+
+    <div class="place flair-food"> 
+        <div class="emoji">🥨🍺🌭🎉</div> 
+        <img class="img-rounded flair-img" src="download (2).webp" alt="Traditionelles bayerisches Essen: Wurst, Bier, Brezel"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">Traditionelles bayerisches Essen</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Willkommen zum Fest der Sinne! Genieße knusprige Brezeln, würzige Würste und ein kühles Bier – alles serviert mit bayerischer Gemütlichkeit und einer Prise Lebensfreude! 
+            <span style="font-size:1.3em;">🍻🥳🍽️</span> 
+        </p> 
+    </div> 
+
+    <div class="place flair-food"> 
+        <div class="emoji">🏆🎉⚽️</div> 
+        <img class="img-rounded flair-img" src="53605.jpg" alt="FC Bayern München feiert einen Sieg"> 
+        <h2 style="color:#b8860b; text-shadow: 2px 2px 8px #fffbe6;">FC Bayern München feiert!</h2> 
+        <p style="font-size:1.15em; color:#2e2e2e; background:rgba(255,255,224,0.85); border-radius:10px; padding:8px 12px; box-shadow:0 2px 8px #e0c97f;"> 
+            Die Spieler des FC Bayern München jubeln nach einem großen Sieg – pure Freude, Teamgeist und Leidenschaft! 
+            <span style="font-size:1.3em;">🥇🥳❤️</span> 
+        </p> 
+    </div> 
+</div> 
+
+<footer> ✨ Viel Spaß in München! Prost! 🍻 | 2025, LaGuardia WebDev ✨ </footer> 
+
+<section style="max-width:700px; margin:2.5em auto 2em auto; background:#f7fbffcc; border-radius:18px; box-shadow:0 2px 16px #b3d9ff40; padding:2em 2.2em;"> 
+<h2 id="highlights" style="text-align:center; margin-top:0; color:#0066b2;">Highlights von München &amp; FC Bayern</h2> 
+<ul style="list-style:square inside; padding-left:0; margin:1.5em 0 2em 0; color:#003366; font-size:1.13em;"> 
+<li><strong>Allianz Arena</strong> – Heimstadion des FC Bayern München</li> 
+<li><strong>Marienplatz &amp; Münchner Altstadt</strong></li> 
+<li><strong>Englischer Garten</strong> – eine der größten Parkanlagen der Welt</li> 
+<li><strong>FC Bayern Spiel</strong> – mit tausenden begeisterten Fans</li> 
+<li><strong>Oktoberfest</strong> – das größte Volksfest der Welt</li> 
+</ul> 
+
+<p style="background:#fff; border-radius:10px; padding:1em 1.2em; margin-bottom:1.2em; box-shadow:0 1px 6px #e6f2ff80; color:#222;"> 
+München bietet eine einzigartige Mischung aus Tradition und Moderne. Genieße bayerische Spezialitäten wie Brezn und Weißwurst, besuche Museen und Galerien oder entspanne im Englischen Garten. Die Stadt ist bekannt für ihre Lebensfreude und Gastfreundschaft. 
+</p> 
+
+<p style="background:#fff; border-radius:10px; padding:1em 1.2em; box-shadow:0 1px 6px #e6f2ff80; color:#222;"> 
+Der FC Bayern München ist einer der erfolgreichsten Fußballvereine Europas. Erlebe die Atmosphäre in der Allianz Arena, besuche das Vereinsmuseum und tauche ein in die Geschichte des Rekordmeisters. Ein Spiel des FC Bayern ist ein unvergessliches Erlebnis für jeden Fußballfan! 
+</p> 
+</section> 
+</body> 
+</html> 
+
+<!DOCTYPE html> 
+<html lang="de"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>🏰 München & FC Bayern München ✨</title> 
+<!-- Added Germania One font --> 
+<link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet"> 
+<style> 
+body { 
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    color: #222; 
+} 
+
+/* Header and footer with Bavarian diamond pattern */ 
+header, footer { 
+    text-align: center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAiPjxwYXRoIGQ9Ik0wLDYwbDYwLTYwTDExMCw2MEgweiIgZmlsbD0iI2Y3ZjhmZiIvPjxwYXRoIGQ9Ik02MCw2MGw2MC02MEwxMjAsNjBIMFYwTDYwLDYweiIgZmlsbD0iIzAwNjZiMiIvPjwvc3ZnPg=="); 
+    background-size: 120px 60px; 
+    background-repeat: repeat; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+} 
+
+header { 
+    padding: 2rem 0 1rem 0; 
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px; 
+} 
+
+/* Apply Germania font to titles */ 
+h1, h2, footer { 
+    font-family: 'Germania One', cursive; 
+    letter-spacing: 1px; 
+} 
+
+/* Make header title and footer text black for better contrast */ 
+header h1#intro, footer { 
+    color: #000; 
+} 
+
+h1#intro { 
+    font-size: 2.5rem; 
+    margin-bottom: 0.5rem; 
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4); 
+} 
+
+.places { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    justify-content: center; 
+    margin: 2rem 0; 
+} 
+
+.place { 
+    background: #fff; 
+    border-radius: 24px; 
+    box-shadow: 0 6px 24px rgba(0,0,0,0.10); 
+    padding: 1rem; 
+    width: 260px; 
+    text-align: center; 
+    transition: transform 0.2s; 
+    border: 2px solid #0066b2; /* Bavarian blue */ 
+} 
+
+.place:hover { 
+    transform: scale(1.05) rotate(-2deg); 
+    box-shadow: 0 12px 32px rgba(0,102,178,0.15); 
+} 
+
+.img-rounded { 
+    border-radius: 18px; 
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12); 
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+} 
+
+.emoji { 
+    font-size: 2.2rem; 
+    margin-bottom: 0.5rem; 
+} 
+
+footer { 
+    padding: 1.5rem 0 1rem 0; 
+    font-size: 1.2rem; 
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px; 
+    margin-top: 2rem; 
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.08); 
+} 
+</style> 
+</head> 
+</html>
